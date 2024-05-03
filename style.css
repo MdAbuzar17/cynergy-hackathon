@@ -11,7 +11,7 @@
     color: white;
     display: flex;
     align-items: center;
-    /* justify-content: space-evenly; */
+    justify-content: space-evenly;
 }
 
 .nav-logo {
@@ -44,6 +44,128 @@
     border: 1.5px solid white;
 }
 
+.add-first{
+    color: #cccccc;
+    font-size: 0.85rem;
+    margin-left: 15px;
+}
+
+.add-second{
+    color: #ffffff;
+    margin-left: 3px;
+
+}
+
+.add-icon{
+    display: flex;
+    align-items: center;
+}
+
 .nav-search{
     display: flex;
+    justify-content: space-evenly;
+    background-color: pink;
+    width:620px;
+    height: 40px;
+    border-radius: 4px;
+
+}
+
+.searchSymbol {
+    text-decoration: none;
+    color: black;
+}
+
+.nav-search:hover{
+    border: 2px solid orange;
+}
+
+.search-select{
+    background-color: #f3f3f3;
+    width: 50px;
+    text-align: center;
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+    border: none;
+}
+
+.search-input{
+    width: 100%;
+    font-size: 1rem;
+    border: none;
+}
+
+.search-icon{
+    width: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2rem;
+    color: #0f1111;
+    background-color: #FFBB70;
+}
+
+span{
+    font-size: 0.7rem;
+    font-weight: 500;
+
+}
+
+.nav-second{
+    font-size: 0.85rem;
+    font-weight: 700;
+
+}
+
+.nav-cart i{
+    font-size: 30px;
+}
+
+.nav-cart{
+    font-size: 0.85rem;
+    font-weight: 700;
+}
+
+.panel{
+    height: 40px;
+    color: white;
+    background-color: #222f3d;
+    display: flex;
+    align-items: center;
+}
+
+.panel-options p{
+    display: inline;
+    margin-left: 15px;
+}
+
+.anchorTagPanel1{
+    color: white;
+    text-decoration: none;
+
+}
+.panel-options a{
+    color: white;
+    text-decoration: none;
+}
+
+.hero-section {
+    background-image: url("Amazonmain.jpg");
+    background-size: cover;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.hero-message {
+    background-color: white;
+    color: black;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 0.85rem;
+    width: 80%;
+    margin-bottom: 3px;
 }
