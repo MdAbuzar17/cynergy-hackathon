@@ -5,21 +5,22 @@
 
 }
 
-.navbar {
+.navigation {
     height: 60px;
     background-color: #0f1111;
     color: white;
     display: flex;
     align-items: center;
     justify-content: space-evenly;
+    cursor: pointer;
 }
 
-.nav-logo {
+.nav-l {
     height: 50px;
     width: 100px;
 }
 
-.logo {
+.l {
     background-image: url("amazon_logo.png");
     background-size: cover;
     height: 50px;
@@ -44,13 +45,13 @@
     border: 1.5px solid white;
 }
 
-.add-first{
+.first{
     color: #cccccc;
     font-size: 0.85rem;
     margin-left: 15px;
 }
 
-.add-second{
+.second{
     color: #ffffff;
     margin-left: 3px;
 
@@ -61,7 +62,7 @@
     align-items: center;
 }
 
-.nav-search{
+.navsearch{
     display: flex;
     justify-content: space-evenly;
     background-color: pink;
@@ -76,11 +77,11 @@
     color: black;
 }
 
-.nav-search:hover{
+.navsearch:hover{
     border: 2px solid orange;
 }
 
-.search-select{
+.searchselect{
     background-color: #f3f3f3;
     width: 50px;
     text-align: center;
@@ -89,13 +90,13 @@
     border: none;
 }
 
-.search-input{
+.searchinput{
     width: 100%;
     font-size: 1rem;
     border: none;
 }
 
-.search-icon{
+.searchicon{
     width: 45px;
     display: flex;
     justify-content: center;
@@ -117,11 +118,21 @@ span{
 
 }
 
-.nav-cart i{
+.return{
+    text-decoration: none;
+    color: white;
+}
+
+.cart i{
     font-size: 30px;
 }
 
-.nav-cart{
+.cart a{
+    text-decoration: none;
+    color: white;
+}
+
+.cart{
     font-size: 0.85rem;
     font-weight: 700;
 }
@@ -134,7 +145,7 @@ span{
     align-items: center;
 }
 
-.panel-options p{
+.panel-opt p{
     display: inline;
     margin-left: 15px;
 }
@@ -144,12 +155,12 @@ span{
     text-decoration: none;
 
 }
-.panel-options a{
+.panel-opt a{
     color: white;
     text-decoration: none;
 }
 
-.hero-section {
+.main-section {
     background-image: url("Amazonmain.jpg");
     background-size: cover;
     height: 300px;
@@ -169,7 +180,7 @@ span{
     color: orange;
 }
 
-.shop-section{
+.shoping-section{
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
@@ -206,4 +217,37 @@ span{
 
 h2{
     font-size: 1.4rem;
+}
+
+.iframe {
+    height: 350px;
+    width: 30%;
+    background-color: #ffffff;
+    padding: 20px 0px 15px;
+    margin-top: 15px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.book {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    text-align: center;
+    background-color: white;
+    width: 97%;
+    
+}
+
+.book-item {
+    display: inline-block;
+    margin: 10px;
+    text-align: center;
+    cursor: pointer;
+}
+
+.book-item img {
+    max-width: 250px;
+    max-height: 250px;
 }
