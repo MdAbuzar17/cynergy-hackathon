@@ -21,7 +21,7 @@
 }
 
 .l {
-    background-image: url("amazon_logo.png");
+    background-image: url("./public/amazon_logo.png");
     background-size: cover;
     height: 50px;
     width: 100px;
@@ -161,7 +161,7 @@ span{
 }
 
 .main-section {
-    background-image: url("Amazonmain.jpg");
+    background-image: url("./public/Amazonmain.jpg");
     background-size: cover;
     height: 300px;
     display: flex;
